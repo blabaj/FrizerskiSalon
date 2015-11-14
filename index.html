@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Frizerski salon</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="             crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">          </script>
+        
+        <link rel="stylesheet" href="oblika.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+        <div class="nav">
+            
+      <div class="container">
+        <div class="row">
+        <div class="col-md-3">
+        <ul class="pull-left naslov">
+          <a href="index.html">  <img id="logo" src="http://shrani.si/f/W/xz/1oxgRlFz/logo.png"> </a>
+        </ul>
+        </div>
+        <div class="col-md-9 pull-right">
+            <form class="navbar-form pull-right" role="search">
+            <div class="input-group ">
+                <input type="text" class="form-control" placeholder="Išči" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+            </div>
+            </form>
+            <ul class="nav navbar-nav pull-right">
+                <li><a class="page-scroll" href="#kajNudimo">Kaj nudimo</a></li>
+                <li><a class="page-scroll" href="#narociSe">Naroči se</a></li>
+                <li><a class="page-scroll" href="#FAQ">FAQ</a></li>
+                <li><a class="link" data-toggle="modal" data-target="#Onas">O nas</a></li>
+            </ul>
+
+ 
+        </div>
+            
+            </div>
+
+        </div>
+        </div>
+
+    <!--plakat -->
+    <div class="plakat">
+     <div class="container">
+        <div class="row">
+        <div class="col-md-1"> <!--prazen --> </div>    
+        <div class="col-md-10 slika">         
+        <h1 id="slogan" class="sloganNapis">Najboljši frizer v mestu</h1>
+        <p class="sloganNapis">Že 2000 zadovoljnih strank!</p> 
+        </div>    
+
+         
+         <div class="col-md-1"> <!--prazen --> </div> 
+         </div>
+         
+    </div>
+    </div>
+   <!--konec plakata -->
+    <!-- začetek ponudb -->
+    <section id="kajNudimo">
+    <div class="container"> 
+    <div class="row">
+        <div class="col-md-12"> 
+        <h1 class="text-center napis">Kaj nudimo</h1>
+        </div>
+    </div>
+    </div>   
+    
+    <div class="container"> 
+    <div class="row">
+         <div class="col-md-4  ponudba">
+        <div class="thumbnail">
+        <div class="col-md-6 slikaPonudba"><p class="text-left">Nega las</p></div>  
+        <div class="col-md-6 slikaPonudba"><img class="pull-right" src="http://icons.iconarchive.com/icons/icons8/ios7/48/Hair-Hair-Brush-icon.png"></div> 
+        <img src="http://shrani.si/f/29/gf/1k6fhdVk/nega.jpg">
+        </div> 
+        </div> 
+        <div class="col-md-4 ponudba">
+        <div class="thumbnail">
+        <div class="col-md-6 slikaPonudba"><p class="text-left">Barvanje</p></div>  
+        <div class="col-md-6 slikaPonudba"><img class="pull-right" src="http://icons.iconarchive.com/icons/iconsmind/outline/48/Hair-2-2-icon.png"></div>     
+        <img src="http://shrani.si/f/3m/2R/3Dz8MBIQ/barvanje.jpg">
+        </div>
+        </div>     
+        <div class="col-md-4 ponudba">
+        <div class="thumbnail">
+        <div class="col-md-6 slikaPonudba"><p class="text-left">Striženje</p></div>  
+        <div class="col-md-6 slikaPonudba" ><img class="pull-right" src="http://icons.iconarchive.com/icons/icons8/ios7/48/Hair-Barbers-Scissors-icon.png"></div> 
+        <img src="http://shrani.si/f/2z/oL/35tp6ZQU/strizenje.jpg">
+        </div> 
+        </div>      
+        
+         
+    </div>
+    </div>
+    </section>
+<!-- Konec ponudb -->
+<!-- Začetek naročil -->
+      <section id="narociSe">
+    <div class="container"> 
+    <div class="row">
+        <div class="col-md-12"> 
+        <h1 class="text-center napis">Naroči se</h1>
+        </div>
+    </div>
+    </div>
+    
+    <div class="container"> 
+    <div class="row">
+         <div class="col-md-6  narocilo">
+                <form>
+                    <div class="form-group">
+                    <input type="email" class="form-control" id="name" placeholder="Ime in priimek">
+                    </div>
+                    <div class="form-group">
+                    <input type="password" class="form-control" id="number" placeholder="Tel. Številka">
+                    </div>
+                    <div class="form-group">
+                    <input type="password" class="form-control" id="termin" placeholder="Termin">
+                    </div>
+                    <div class="form-group">
+                    <input type="password" class="form-control" id="etc" placeholder="Ostalo (želje glede pričeseke itd.)">
+                    </div>
+                    <div class="checkbox">
+                    <label>
+                    <input type="checkbox"> Strinjam se, da je Mirko najboljši frizer
+                    </label>
+                    </div>
+                    <div class="col-md-4"> </div>
+                     <div class="col-md-4"><button type="submit" class="btn btn-default">Pošlji</button> </div>
+                     <div class="col-md-4"> </div>
+                    
+                </form>
+        </div>    
+        <div class="col-md-6 narocilo">
+              <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Dan</th>
+        <th>Delavne ure</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ponedeljek</td>
+        <td>8:00-16.00</td>
+      </tr>
+      <tr>
+        <td>Torek</td>
+        <td>10:00-16.00</td>
+      </tr>
+      <tr>
+        <td>Sreda</td>
+        <td>8:00-16.00</td>
+      </tr>
+       <tr>
+        <td>Ponedeljek</td>
+        <td>8:00-16.00</td>
+      </tr>
+       <tr>
+        <td>Četrtek</td>
+        <td>8:00-16.00</td>
+      </tr>
+       <tr>
+        <td>Petek</td>
+        <td>12:00-20.00</td>
+      </tr>
+       <tr>
+        <td>Sobota</td>
+        <td>8:00-16.00</td>
+      </tr>
+       <td>Nedelja</td>
+        <td>8:00-12.00</td>
+      </tr>
+    </tbody>
+  </table>    
+        </div>      
+        
+         
+    </div>
+    </div>
+    </section>
+<!--konec naročil -->    
+<!--Začetek FAQ --> 
+<section id="FAQ">
+    <div class="container"> 
+    <div class="row">
+        <div class="col-md-12"> 
+        <h1 class="text-center napis">FAQ</h1>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    
+    <div class="container"> 
+    <div class="row">
+         <div class="col-md-12  ponudba">
+             <p class="text-left naslov">Kakšen je salon in ekipa?</p>
+             <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet varius ipsum eget consequat. In dictum ligula non augue feugiat, quis laoreet mauris congue. Mauris lacus neque, interdum ut dapibus et, bibendum eu ligula. Sed sit amet justo at mauris aliquet feugiat sed nec sem. Sed quis congue massa. Nulla eget euismod neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin maximus, justo eget vestibulum congue, diam dolor hendrerit enim, at faucibus tortor purus non elit. Proin pulvinar orci sed vehicula sagittis. Pellentesque eu bibendum velit, sed tincidunt lorem. Phasellus eget lacus ut augue imperdiet tempor. Nam quis efficitur ligula. Integer et purus lorem. Mauris et sollicitudin mi. Quisque iaculis nisi sed varius sagittis. Maecenas malesuada dapibus sagittis. </p>
+             
+             <p class="text-left naslov">Ali sprejemate hišne ljubljenčke?</p>
+             <p class="text-left">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ac hendrerit metus. Nam a justo felis. Cras laoreet, lacus sit amet eleifend commodo, urna nisi gravida sem, eu hendrerit lorem tellus sit amet ante. Nam a purus convallis, pulvinar dolor non, viverra nulla. Mauris interdum nulla quis tortor finibus interdum. Donec tincidunt tellus eu elit vulputate vehicula. Nunc ornare, est eu accumsan fermentum, felis augue aliquam tellus, id blandit ex leo quis neque. Vivamus scelerisque condimentum pulvinar. Duis molestie imperdiet condimentum. Duis varius congue sodales. Proin eget velit in erat maximus blandit. Mauris luctus iaculis orci, a scelerisque purus imperdiet sed. Cras porta volutpat neque, vel posuere velit hendrerit pretium. Ut enim diam, pharetra eget gravida non, facilisis vel velit. Phasellus at arcu scelerisque, congue nulla ut, cursus dolor.</p>
+        
+             <p class="text-left naslov">Imate kakšne nagrade s tekomovanj?</p>
+             <p class="text-left">Vestibulum ac nisi metus. Quisque placerat maximus viverra. Cras vitae mi id purus iaculis condimentum ut ut tortor. Sed egestas ac ipsum in sagittis. Aenean id ullamcorper lorem, laoreet vehicula tellus. Morbi ac viverra augue. Vivamus in ultricies libero. Nullam dapibus molestie dolor sed aliquet. In interdum leo arcu, sed tincidunt neque volutpat sed. Curabitur consectetur justo augue, quis tempus nisi pharetra quis. Morbi sit amet congue augue.</p>
+             
+        </div>   
+          
+    </div>
+    </div>
+    </section>
+<!--Konec FAQ --> 
+
+<!--začetek kontaktnih informacij -->
+    <section id="kontakt">
+    <div class="container"> 
+    <div class="row">
+        <div class="col-md-12">
+            </br>
+        </br>
+        </div>
+    </div>
+    </div>   
+    
+    <div class="container"> 
+    <div class="row">
+         <div class="col-md-4  kontaktneInformacije">
+            <p class="text-left podatki naslovniPodatki">Kontakt</p>
+            <p class="text-left podatki">Frizer Mirko s.p.</p>
+             <p class="text-left podatki">Davčna: 24316711</p>
+             <p class="text-left podatki">Frizerska ulica 5, 1000 Ljubljana</p>
+             <p class="text-left podatki">Tel:01/3456789</p>
+             <p class="text-left podatki">Email: frizer.mirko@f-mirko.com</p>
+        </div> 
+        <div class="col-md-4 prazen">
+            <!--PRAZEN PROSTOR -->
+        </div>     
+        <div class="col-md-4 navigacija">
+           <div class="col-md-4  navigacijskeInformacije">
+            <p class="text-left podatki naslovniPodatki">Navigacija</p>
+            <a class="text-left podatki page-scroll" href="#kajNudimo">Kaj nudimo</a>
+             <a class="text-left podatki page-scroll " href="#narociSe">Naroči se</a>
+             <a class="text-left podatki page-scroll " href="#FAQ">Pogosta vprašanja</a>
+             <p class="text-left podatki navigacijaOnas" data-toggle="modal" data-target="#Onas"> O nas</p>
+        </div>  
+        </div>               
+    </div>
+    </div>
+    </section>
+<!--konec kontaktnih informacij -->
+<div class="footer">
+     <div class="container">
+        <div class="row">
+            <div class="col-md-1 text-center"> <!--prazen --> </div>    
+            <div class="col-md-10 text-center napisFooter"> © 2015 Blaž Bajec  </div>    
+            <div class="col-md-1"> <!--prazen -->  </div>    
+         
+    </div>
+    </div>
+
+
+<!--O nas -->
+<!-- Modal -->
+  <div class="modal fade" id="Onas" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">O nas</h4>
+        </div>
+        <div class="modal-body">
+          <p>Pellentesque dictum ante non fringilla commodo. Proin suscipit neque nisi. Vestibulum vel lectus sed velit pellentesque blandit. Duis non dictum arcu, id gravida magna. Mauris at placerat urna. Integer in molestie tellus, et vulputate turpis. Vestibulum convallis vulputate blandit. Donec tempus lorem quis metus scelerisque tempus. Sed pharetra mattis elit non gravida. Fusce iaculis enim quis posuere sollicitudin. Pellentesque et diam nibh.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Zapri</button>
+        </div>
+      </div>
+      
+  </div>
+  
+</div>
+
+
+</body>
+
+
+
+
+</html>

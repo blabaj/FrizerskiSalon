@@ -1,0 +1,123 @@
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li input{
+    display: inline;
+}
+
+.navi{
+    margin-top: 3%;
+    
+}
+
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+
+.naslov{
+  font-size: 20px;
+  font-weight: bold;
+    
+}
+
+.slikaPonudba{
+    margin-bottom: 5%;
+
+}
+
+.napisFooter{
+    height: 3em;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#logo{
+    font-size: 20px;
+    
+    
+}
+.slika{
+    background-image:url('http://shrani.si/f/2d/FO/96Qi2Ml/frizerski.jpg');
+     height: 400px;
+    width: 100%;
+    color:aliceblue;
+    outline-color: black;
+}
+
+#slogan{
+     margin-top: 10%;
+     font-size: 4em;
+    color:aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    }
+
+.sloganNapis{
+    margin-left: 20%;
+    font-size: 2em;
+    color:aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.napis{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ponudba{
+    font-size: 20px;
+    
+}
+
+.thumbnail{
+    border: 0 none;
+    box-shadow: none;
+}
+
+#etc{
+    height: 200px;
+    width: 100%;
+    
+}
+
+.naslov{
+    font-size: 23px;
+ 
+}
+
+.naslovniPodatki{
+   font-size: 20px; 
+    
+}
+
+.link { 
+    cursor: pointer; 
+}
+
+.navigacijaOnas{ 
+    cursor: pointer;
+    color:#397ab7;
+}
+
+.navigacijaOnas:hover{ 
+    text-decoration: underline;
+}
+    
